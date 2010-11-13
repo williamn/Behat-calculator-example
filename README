@@ -1,1 +1,21 @@
 Behat is an open source BDD framework for PHP 5.3.
+
+Install
+-------
+
+There's many ways to install Behat.
+I prefer to clone the project and create a sym link.
+This steps is done on Ubuntu 10.04
+
+$ git clone git://github.com/everzet/Behat.git
+$ sudo ln -s /path/to/Behat/bin/behat /usr/bin/behat
+$ git submodule update --init
+
+Test your installation
+
+$ behat
+
+then you should see
+
+  [InvalidArgumentException]                         
+  Provide correct feature(s) path. "features" given
