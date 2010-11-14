@@ -6,17 +6,19 @@ class Calculator
     {
         if (!isset($this->items)) {
             $this->items = array($num);
+        } else {
+            array_push($this->items, $num);
         }
     }
 
     public function add()
     {
-        throw new Exception('Undefined');
+        $this->result = array_sum($this->items);
     }
 
     public function result()
     {
-        throw new Exception('Undefined');
+        return $this->result;
     }
 }
 
