@@ -2,7 +2,7 @@
 
 __INSTALL__
 
-There is many ways to [install](http://everzet.com/Behat/#install) Behat.
+There are many ways to [install](http://everzet.com/Behat/#install) Behat.
 I prefer to clone the project and create a sym link.
 This steps is done on Ubuntu 10.04
 
