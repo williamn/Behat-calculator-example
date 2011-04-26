@@ -6,7 +6,7 @@ There are many ways to [install](http://everzet.com/Behat/#install) Behat.
 I prefer to clone the project and create a sym link.
 This steps is done on Ubuntu 10.04
 
-    $ git clone git://github.com/everzet/Behat.git
+    $ git clone git://github.com/Behat/Behat.git
     $ cd Behat
     $ git submodule update --init
     $ sudo ln -s /path/to/Behat/bin/behat /usr/bin/behat
