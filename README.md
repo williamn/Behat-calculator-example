@@ -1,4 +1,4 @@
-[Behat](http://behat.org/) is an open source BDD framework for PHP 5.3.
+[Behat](http://behat.org/) is an open source BDD framework for __PHP 5.3__.
 
 __INSTALL__
 
