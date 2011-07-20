@@ -1,8 +1,8 @@
-[Behat](http://everzet.com/Behat/) is an open source BDD framework for PHP 5.3.
+[Behat](http://behat.org/) is an open source BDD framework for PHP 5.3.
 
 __INSTALL__
 
-There are many ways to [install](http://everzet.com/Behat/#install) Behat.
+There are many ways to [install](http://docs.behat.org/quick_intro.html#installation) Behat.
 I prefer to clone the project and create a sym link.
 This steps is done on Ubuntu 10.04
 
