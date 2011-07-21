@@ -2,14 +2,12 @@
 
 __INSTALL__
 
-There are many ways to [install](http://docs.behat.org/quick_intro.html#installation) Behat.
-I prefer to clone the project and create a sym link.
-This steps is done on Ubuntu 10.04
+There are 3 methods to [install](http://docs.behat.org/quick_intro.html#installation) Behat.
+I prefer to use PEAR
 
-    $ git clone git://github.com/Behat/Behat.git
-    $ cd Behat
-    $ git submodule update --init
-    $ sudo ln -s /path/to/Behat/bin/behat /usr/bin/behat
+    $ pear channel-discover pear.behat.org
+    $ pear channel-discover pear.symfony.com
+    $ pear install behat/behat
 
 Test your installation
 
@@ -18,6 +16,6 @@ Test your installation
 then you should see
 
       [InvalidArgumentException]
-      Provide correct feature(s) path. "features" given
+      Provide correct feature(s) path. "/your/current/directory/features" given
       
 You want to [install PHPUnit](http://www.phpunit.de/manual/current/en/installation.html) as well.
